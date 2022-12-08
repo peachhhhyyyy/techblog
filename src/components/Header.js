@@ -5,7 +5,7 @@ export default function Navigation() {
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             박영후의 Blog
             {/* 로고 넣기 */}
           </a>

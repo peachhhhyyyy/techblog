@@ -12,13 +12,14 @@ a {
 * {
     box-sizing: border-box;
 }
+.navbar-nav {
+    position: absolute;
+    right: 15px;
+}
 .nav-item {
     color: #000;
     text-decoration: none;
 }
 .nav-item + .nav-item {
     margin-left: 15px;
-}
-.collapse:not(.show) {
-    display: block !important;
 }
