@@ -19,3 +19,6 @@ a {
 .nav-item + .nav-item {
     margin-left: 15px;
 }
+.collapse:not(.show) {
+    display: block !important;
+}
