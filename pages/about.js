@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Navigation from '../src/components/Header';
+import parkyeonghoo from '../public/parkyeonghoo.png'
 
 export default function Homepage() {
     return (
@@ -13,35 +15,27 @@ export default function Homepage() {
 
         <div className="about-container">
           <div className="profile">
-            <h1>박영후</h1>
-            <h2>
-              <p>Github</p>
-              <a>https://github.com/peachhhhyyyy</a>
+            <h1>About</h1>
+            <h2 className="profile-area">
+              <figure>
+                <Image 
+                  alt="parkyeonghoo mimoticon"
+                  src={parkyeonghoo}
+                  width={400}
+                  height={400}
+                  style={{
+                    maxWidth: '100%',
+                    height: 'auto',
+                  }}
+                />
+                <figcaption>
+                  <p>기록하는 것을 좋아하는 개발자입니다.</p>
+                  <p>주변사람들과 정보를 공유하고 문제를 함께 해결하는 것에 기쁨을 느낍니다. 혼자 일한 적이 많지만, 같이 일하는 것도 아주 좋아합니다.</p>
+                  <p>블로그 운영하는 것을 좋아합니다. 짧은 지식을 담은 기술블로그, 일상을 담은 개인블로그를 운영하고 있습니다.</p>
+                  <button>Resume</button>
+                </figcaption>
+              </figure>
             </h2>
-            <h2>
-              <p>Blog</p>
-              <a>TO-DO</a>
-            </h2>
-            <h2>
-              <p>Email</p>
-              <a href="mailto:pyhoo78@naver.com">pyhoo78@naver.com</a>
-            </h2>
-          </div>
-          <div className="introduce">
-            <p>어느 조직이든 적응하려고 눈치 애지게 보고 애씀</p>
-            <p>휴먼에러 최소화</p>
-            <p>리더 역할은 다소 부족하나 서포터 역할 잘함</p>
-          </div>
-          <div className="project">
-            <div className="project-area">
-              VICS 사내 솔루션 제작
-            </div>
-            <div className="project-area">
-              디앤오씨엠 엑셀 매크로 일부 제작
-            </div>
-            <div className="project-area">
-              ETRI 일부분 참여
-            </div>
           </div>
         </div>
       </div>
