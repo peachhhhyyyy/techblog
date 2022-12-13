@@ -14,9 +14,8 @@ export default function Homepage() {
         <Navigation />
 
         <div className="about-container">
-          <div className="profile">
-            <h1>About</h1>
-            <h2 className="profile-area">
+            <h1 className="about-title">About</h1>
+            <h2 className="about-area">
               <figure>
                 <Image 
                   alt="parkyeonghoo mimoticon"
@@ -30,13 +29,12 @@ export default function Homepage() {
                 />
                 <figcaption>
                   <p>기록하는 것을 좋아하는 개발자입니다.</p>
-                  <p>주변사람들과 정보를 공유하고 문제를 함께 해결하는 것에 기쁨을 느낍니다. 혼자 일한 적이 많지만, 같이 일하는 것도 아주 좋아합니다.</p>
-                  <p>블로그 운영하는 것을 좋아합니다. 짧은 지식을 담은 기술블로그, 일상을 담은 개인블로그를 운영하고 있습니다.</p>
-                  <button>Resume</button>
+                  <p>주변사람들과 정보를 공유하고 문제를 함께 해결하는 것에 기쁨을 느낍니다.<br></br>혼자 일한 적이 많지만, 같이 일하는 것도 아주 좋아합니다.</p>
+                  <p>블로그 운영하는 것을 좋아합니다.<br></br>짧은 지식을 담은 기술블로그, 일상을 담은 개인블로그를 운영하고 있습니다.</p>
+                  <button type="button" className="button button-point">Resume</button>
                 </figcaption>
               </figure>
             </h2>
-          </div>
         </div>
       </div>
     );

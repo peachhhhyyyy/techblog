@@ -1,5 +1,22 @@
-.profile-area figure {
+.about-title {
+    margin: 10px 0 0 10px;
+}
+.about-area figure {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.about-area figcaption {
+    font-size: 1rem;
+}
+.button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px #000 solid;
+    color: #000;
+}
+.button-point {
+    border: 1px #E3BD62 solid;
+    color: #E3BD62;
 }
