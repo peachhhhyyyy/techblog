@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem 0 5rem;
 }
 .about-area figcaption {
     font-size: 1rem;
@@ -19,4 +20,27 @@
 .button-point {
     border: 1px #E3BD62 solid;
     color: #E3BD62;
+}
+.button-effect {
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+.button-effect:hover, 
+.button-effect:focus,
+.button-effect:visited {
+    background: #E3BD62;
+    color: #666;
+}
+.button-effect::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 20px;
+    top: -100%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(-45deg);
+    box-shadow: 10px 0 2px #fff;
+    filter: blur(10px);
+    transition: all 2s;
 }

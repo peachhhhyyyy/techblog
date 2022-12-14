@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html,
 body {
     padding: 0;
@@ -6,11 +9,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 a {
-    color: #000;
-    text-decoration: none;
-}
-* {
-    box-sizing: border-box;
+    color: #000 !important;
+    text-decoration: none !important;
 }
 .navbar-nav {
     position: absolute;
