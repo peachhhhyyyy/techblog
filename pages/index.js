@@ -5,7 +5,7 @@ export default function Homepage() {
     return (
       <div>
         <Head>
-          <title>Parkyeonghoo Blog</title>
+          <title>Parkyeonghoo Blog : Home</title>
           <meta name="viewport" content="initial-scale=1.0. width=device-width" />
         </Head>
 
